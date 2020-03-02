@@ -64,11 +64,11 @@ public class Food extends JPanel {
 
     @Override
     public void paintComponent(Graphics g) {
-        g.setColor(Color.BLACK);
+        g.setColor(Color.black);
         g.drawOval(Data.CASESIZE / 6, Data.CASESIZE / 6,
          Data.CASESIZE - (Data.CASESIZE / 3) - 1, Data.CASESIZE - (Data.CASESIZE / 3) - 1);
 
-        g.setColor(color);
+        g.setColor(Color.white);
         g.fillOval(Data.CASESIZE / 6 + 1,
          Data.CASESIZE / 6 + 1, Data.CASESIZE - (Data.CASESIZE / 3) - 3,
           Data.CASESIZE - (Data.CASESIZE / 3) - 3);

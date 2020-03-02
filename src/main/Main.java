@@ -57,7 +57,7 @@ public class Main extends JFrame {
         juego.add(opcion);
         juego.add(cerrar);
 
-        mb.add(juego);
+        //mb.add(juego);
 
         this.getContentPane().add(mb, BorderLayout.NORTH);
 
@@ -75,7 +75,7 @@ public class Main extends JFrame {
         this.addKeyListener(serpiente);
 
         // Creacion del contador
-        this.add(serpiente.getPanel(), BorderLayout.SOUTH);
+        //this.add(serpiente.getPanel(), BorderLayout.SOUTH);
 
         this.pack();
         this.setLocationRelativeTo(null);
