@@ -67,7 +67,7 @@ public class Main extends JFrame {
         this.getContentPane().add(mapPanel);
 
         cabeza = new Block((Data.NBRCASEX - 1) / 2, (Data.NBRCASEY - 1) / 2);
-        cabeza.setColor(new Color(0, 20, 0));
+        cabeza.setColor(new Color(121, 173, 69));
         serpiente = new Snake(cabeza, Data.SNAKESIZE, this);
 
         thread = new Thread(serpiente);
@@ -103,7 +103,7 @@ public class Main extends JFrame {
         this.getContentPane().add(mapPanel);
 
         cabeza.moveIt((Data.NBRCASEX - 1) / 2, (Data.NBRCASEY - 1) / 2);
-        cabeza.setColor(new Color(0, 20, 0));
+        cabeza.setColor(new Color(121, 173, 69));
         serpiente.reborn(cabeza, Data.SNAKESIZE);
 
         this.pack();

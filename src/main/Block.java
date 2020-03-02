@@ -77,7 +77,7 @@ public class Block extends JPanel {
             posY++;
         }
 
-        // Permite a la serpiente regresal al tablero por el extremo contrario
+        // Permite a la serpiente regresar al tablero por el extremo contrario
         if (posX < 0 && dir == Snake.WEST) {
             posX = Data.NBRCASEX - 1;
         }

@@ -39,10 +39,10 @@ public class Map extends JPanel {
      * @param g
      */
     public void paintComponent(Graphics g) {
-        g.setColor(Color.gray);
+        g.setColor(Color.black);
         g.fillRect(0, 0, this.sizeX, this.sizeY);
 
-        g.setColor(Color.gray);
+        g.setColor(Color.black);
         g.drawRect(0, 0, this.sizeX - 1, this.sizeY - 1);
     }
 

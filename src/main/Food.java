@@ -23,7 +23,7 @@ public class Food extends JPanel {
     protected int posX;
     protected int posY;
 
-    private Color color = new Color(211, 161, 0);
+    private Color color = new Color(207, 211, 208);
 
     /**
      * Crear nueva comida
