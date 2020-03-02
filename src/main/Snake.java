@@ -65,7 +65,7 @@ public class Snake extends JPanel implements Runnable, KeyListener {
 
         //Añade al mapa
         Data.MAP.add(cabeza);
-        Data.MAP.add(cola.toArray(new Block[cola.size()]));
+        //Data.MAP.add(cola.toArray(new Block[cola.size()]));
         //Data.MAP.add(comida);
 
         //Agrega el marcador
