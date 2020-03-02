@@ -52,7 +52,7 @@ public class Snake extends JPanel implements Runnable, KeyListener {
         color = new Color(0, 180, 0);
         padre = _padr;
         comida = new Food((int) (Math.random() * Data.NBRCASEX),
-         (int) (Math.random() * Data.NBRCASEY), padre);
+                (int) (Math.random() * Data.NBRCASEY), padre);
         for (int i = 0; i < nbrCola; i++)//Añade al cuerpo
         {
             if (i == 0) {
@@ -66,7 +66,7 @@ public class Snake extends JPanel implements Runnable, KeyListener {
         //Añade al mapa
         Data.MAP.add(cabeza);
         Data.MAP.add(cola.toArray(new Block[cola.size()]));
-        Data.MAP.add(comida);
+        //Data.MAP.add(comida);
 
         //Agrega el marcador
         pc.add(new JLabel("Marcador: "));
