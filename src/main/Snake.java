@@ -1,4 +1,4 @@
-package snake;
+package main;
 
 import java.awt.Color;
 import java.awt.event.KeyEvent;
@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import Componentes.*;
+import main.Ventana_Dialogo;
 import main.Main;
-import map.Food;
+import main.Food;
 
 /**
  * La cabeza dela serpiente

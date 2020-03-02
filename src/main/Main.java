@@ -12,9 +12,9 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 
-import snake.Block;
-import snake.Data;
-import snake.Snake;
+import main.Block;
+import main.Data;
+import main.Snake;
 
 /**
  * Clase principal del Snake

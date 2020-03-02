@@ -1,4 +1,4 @@
-package map;
+package main;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -6,9 +6,9 @@ import java.awt.Graphics;
 
 import javax.swing.JPanel;
 import main.Main;
-import snake.Block;
+import main.Block;
 
-import snake.Data;
+import main.Data;
 
 /**
  * Comida para a serpiente

@@ -12,10 +12,10 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
 
-import snake.Data;
-import static snake.Data.NBRCASEX;
-import static snake.Data.NBRCASEY;
-import static snake.Data.SNAKESPEED;
+import main.Data;
+import static main.Data.NBRCASEX;
+import static main.Data.NBRCASEY;
+import static main.Data.SNAKESPEED;
 
 /**
  * Caja de dialogo de la opcion

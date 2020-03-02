@@ -1,6 +1,6 @@
-package snake;
+package main;
 
-import map.Map;
+import main.Map;
 
 /**
  * Clase para los datos del juego
