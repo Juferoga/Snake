@@ -1,3 +1,9 @@
-1) Lo que sale del controlador, para la parte visual, debe ser publico estatico
-2) (Arraylist) => F*CK
+1) Lo que sale del controlador, para la parte visual, debe ser publico estatico 
+2) (Arraylist)
 3) Que se note la separacion de la parte grafica a la parte del controlador
+
+                                  Desarrollo
+1) Mi no entender este !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2) En la clase Snake se añade el arraylist como las partes del cuerpo que le 
+    siguen a la cabeza.
+3) Se estructura el proyecto en 3 capas (capa logica, Presentacion y datos).

@@ -12,7 +12,7 @@ import Presentacion.*;
 import Datos.Data;
 
 /**
- * La cabeza dela serpiente
+ * La clase de la serpiente
  *
  * @author Estudiantes
  *
@@ -28,6 +28,9 @@ public class Snake extends JPanel implements Runnable, KeyListener {
 
     private Main padre;
     private Block cabeza;
+    
+    // Array list de la serpiente solo lo aplicamos en la cola de la 
+    // serpiente
     private ArrayList<Block> cola = new ArrayList<Block>();
 
     private short dir = WEST;
