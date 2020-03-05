@@ -15,8 +15,8 @@ import javax.swing.JPanel;
  */
 public class Map extends JPanel {
 
-    private int sizeX;
-    private int sizeY;
+    private final int sizeX;
+    private final int sizeY;
 
     /**
      * Crear Tablero
@@ -24,7 +24,7 @@ public class Map extends JPanel {
      * @param sizeX tamaño X en pixel del tablero
      * @param sizeY tamaño Y en pixel del tablero
      */
-    public Map(int sizeX, int sizeY) {
+    public Map(final int sizeX, final int sizeY) {
         this.sizeX = sizeX;
         this.sizeY = sizeY;
 
@@ -38,7 +38,7 @@ public class Map extends JPanel {
      *
      * @param g
      */
-    public void paintComponent(Graphics g) {
+    public void paintComponent(final Graphics g) {
         g.setColor(Color.black);
         g.fillRect(0, 0, this.sizeX, this.sizeY);
 
@@ -51,8 +51,8 @@ public class Map extends JPanel {
      *
      * @param array
      */
-    public void add(Component[] array) {
-        for (Component o : array) {
+    public void add(final Component[] array) {
+        for (final Component o : array) {
             this.add(o);
         }
     }
@@ -62,8 +62,8 @@ public class Map extends JPanel {
      *
      * @param array
      */
-    public void remove(Component[] array) {
-        for (Component o : array) {
+    public void remove(final Component[] array) {
+        for (final Component o : array) {
             this.remove(o);
         }
     }

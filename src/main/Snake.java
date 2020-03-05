@@ -8,10 +8,6 @@ import java.util.ArrayList;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import main.Ventana_Dialogo;
-import main.Main;
-import main.Food;
-
 /**
  * La cabeza dela serpiente
  *

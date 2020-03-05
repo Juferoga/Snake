@@ -12,7 +12,6 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 
-import main.Block;
 import main.Data;
 import main.Snake;
 
@@ -25,12 +24,12 @@ import main.Snake;
 public class Main extends JFrame {
 
     private final Main before = this;
-    private Block cabeza;
-    private Snake serpiente;
-    private JPanel mapPanel = new JPanel();
-    private Thread thread;
+    private final Block cabeza;
+    private final Snake serpiente;
+    private final JPanel mapPanel = new JPanel();
+    private final Thread thread;
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         new Main();
     }
 
@@ -41,12 +40,12 @@ public class Main extends JFrame {
         this.setTitle("Snake - UD");
         this.setLayout(new BorderLayout());
 
-        // Creacion del MENU 
-        JMenuBar mb = new JMenuBar();
-        JMenu juego = new JMenu("Juego");
-        JMenuItem opcion = new JMenuItem("Opciones");
-        JMenuItem jugar = new JMenuItem("Jugar");
-        JMenuItem cerrar = new JMenuItem("Cerrar");
+        // Creacion del MENU
+        final JMenuBar mb = new JMenuBar();
+        final JMenu juego = new JMenu("Juego");
+        final JMenuItem opcion = new JMenuItem("Opciones");
+        final JMenuItem jugar = new JMenuItem("Jugar");
+        final JMenuItem cerrar = new JMenuItem("Cerrar");
 
         opcion.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F2, 0));
         jugar.addActionListener(new Juego(this));

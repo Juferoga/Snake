@@ -18,12 +18,12 @@ import main.Data;
  */
 public class Food extends JPanel {
 
-    private Main padre;
+    private final Main padre;
 
     protected int posX;
     protected int posY;
 
-    private Color color = new Color(207, 211, 208);
+    private final Color color = new Color(207, 211, 208);
 
     /**
      * Crear nueva comida
@@ -31,7 +31,7 @@ public class Food extends JPanel {
      * @param posX posicion horizontal de la comida
      * @param posY posicion vertical de la comida
      */
-    public Food(int posX, int posY, Main _padre) {
+    public Food(final int posX, final int posY, final Main _padre) {
         this.setSize(new Dimension(Data.CASESIZE, Data.CASESIZE));
 
         this.setLocation(posX * Data.CASESIZE, posY * Data.CASESIZE);
@@ -63,15 +63,14 @@ public class Food extends JPanel {
     }
 
     @Override
-    public void paintComponent(Graphics g) {
+    public void paintComponent(final Graphics g) {
         g.setColor(Color.black);
-        g.drawOval(Data.CASESIZE / 6, Data.CASESIZE / 6,
-         Data.CASESIZE - (Data.CASESIZE / 3) - 1, Data.CASESIZE - (Data.CASESIZE / 3) - 1);
+        g.drawOval(Data.CASESIZE / 6, Data.CASESIZE / 6, Data.CASESIZE - (Data.CASESIZE / 3) - 1,
+                Data.CASESIZE - (Data.CASESIZE / 3) - 1);
 
         g.setColor(Color.white);
-        g.fillOval(Data.CASESIZE / 6 + 1,
-         Data.CASESIZE / 6 + 1, Data.CASESIZE - (Data.CASESIZE / 3) - 3,
-          Data.CASESIZE - (Data.CASESIZE / 3) - 3);
+        g.fillOval(Data.CASESIZE / 6 + 1, Data.CASESIZE / 6 + 1, Data.CASESIZE - (Data.CASESIZE / 3) - 3,
+                Data.CASESIZE - (Data.CASESIZE / 3) - 3);
     }
 
     /**
@@ -81,9 +80,9 @@ public class Food extends JPanel {
      * @param j
      * @return
      */
-    public boolean TestCuerpo(int i, int j) {
+    public boolean TestCuerpo(final int i, final int j) {
         boolean res = true;
-        for (Block b : padre.getSerpiente().getCola()) {
+        for (final Block b : padre.getSerpiente().getCola()) {
             if (i == b.getX() && j == b.getY()) {
                 res = false;
             }
