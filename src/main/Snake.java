@@ -38,10 +38,10 @@ public class Snake extends JPanel implements Runnable, KeyListener {
     private JPanel pc = new JPanel();
 
     /**
-     * Crée un nouveau serpent
+     * Crea una nueva serpiente
      *
-     * @param cabeza le block représentant sa tête
-     * @param nbrCola le nombre de block en plus de sa tête
+     * @param cabeza Bloque que representa la cabeza
+     * @param nbrCola Bloque que se le añade a la cabeza
      */
     public Snake(Block cabeza, int nbrCola, Main _padr) {
         this.cabeza = cabeza;

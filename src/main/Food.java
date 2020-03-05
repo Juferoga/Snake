@@ -43,7 +43,7 @@ public class Food extends JPanel {
     }
 
     /**
-     * Change l'emplacement de la food
+     * CAmbia la posicion de la comida
      *
      * @param posX posicion horizontal de la comida
      * @param posY posicion vertical de la comida
