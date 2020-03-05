@@ -1,4 +1,4 @@
-package main;
+package Logica;
 
 import java.awt.Color;
 import java.awt.event.KeyEvent;
@@ -7,6 +7,9 @@ import java.util.ArrayList;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+import Presentacion.*;
+import Datos.Data;
 
 /**
  * La cabeza dela serpiente

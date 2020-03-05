@@ -1,4 +1,4 @@
-package main;
+package Presentacion;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -12,9 +12,10 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
 
-import static main.Data.NBRCASEX;
-import static main.Data.NBRCASEY;
-import static main.Data.SNAKESPEED;
+import static Datos.Data.NBRCASEX;
+import static Datos.Data.NBRCASEY;
+import static Datos.Data.SNAKESPEED;
+import Datos.*;
 
 /**
  * Caja de dialogo de la opcion

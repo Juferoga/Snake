@@ -1,6 +1,6 @@
-package main;
+package Datos;
 
-import main.Map;
+import Datos.Map;
 
 /**
  * Clase para los datos del juego

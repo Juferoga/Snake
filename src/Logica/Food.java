@@ -1,14 +1,13 @@
-package main;
+package Logica;
 
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 
 import javax.swing.JPanel;
-import main.Main;
-import main.Block;
-
-import main.Data;
+import Presentacion.*;
+import Logica.*;
+import Datos.*;
 
 /**
  * Comida para a serpiente

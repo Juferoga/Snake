@@ -1,10 +1,12 @@
-package main;
+package Logica;
 
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 
 import javax.swing.JPanel;
+
+import Datos.Data;
 
 /**
  * Bloque o cuerpo de la serpiente

@@ -1,4 +1,4 @@
-package main;
+package Presentacion;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -12,8 +12,8 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 
-import main.Data;
-import main.Snake;
+import Datos.*;
+import Logica.*;
 
 /**
  * Clase principal del Snake
