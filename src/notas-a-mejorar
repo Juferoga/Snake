@@ -6,4 +6,11 @@
 1) Mi no entender este !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 2) En la clase Snake se añade el arraylist como las partes del cuerpo que le 
     siguen a la cabeza.
+        src/Logica/Snake.java
 3) Se estructura el proyecto en 3 capas (capa logica, Presentacion y datos).
+    https://instintobinario.com/arquitectura-en-tres-capas/
+    
+    Resumen
+    capa Presentacion => lo que el usuario ve
+    capa Logica       => los procesos para que funcione el programa
+    capa Datos        => campo para los datos del programa

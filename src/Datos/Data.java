@@ -1,6 +1,6 @@
 package Datos;
 
-import Datos.Map;
+import Logica.*;
 
 /**
  * Clase para los datos del juego
